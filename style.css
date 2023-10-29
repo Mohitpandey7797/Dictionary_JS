@@ -1,0 +1,82 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background: url("https://cdn.pixabay.com/photo/2017/10/21/16/39/dictionary-2875159_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.container{
+    width: 1152px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    background: #553C9A;
+    color: #fff;
+    padding: 1rem 0 ;
+}
+section.input{
+    padding-top: 100px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+}
+.form_wrap{
+    display: flex;
+    justify-content: center;
+}
+.input_wrap{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+input{
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    min-width: 400px;
+    outline: none;
+}
+button{
+    background: #553C9A;
+    color: #fff;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+section.data{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.loading{
+    display: none;
+}
+section.data p.def{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+audio{
+    margin-top: 20px;
+    border-radius: 9px;
+    background-color: #553C9A;
+}

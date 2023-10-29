@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <h1>Dictionary</h1>
+        </div>
+    </nav>
+
+    <section class="input container">
+       <center><h2 style="background-color: rgba(87, 87, 87, 0.9);">Find any word 👇 </h2></center> 
+        <div class="form_wrap">
+            <div class="input_wrap">
+                <input type="text" id="input" placeholder="Type a word" autocomplete="off">
+                <button id="search">Search </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="data container">
+        <span class="loading">Loading...</span>
+        <p style="background-color:  rgba(87, 87, 87, 0.9);" class="def"></p>
+        <div class="audio"></div>
+        <div class="not_found"></div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
