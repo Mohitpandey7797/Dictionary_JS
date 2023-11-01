@@ -8,8 +8,6 @@ The GitHub Dictionary Web App is a user-friendly online tool that allows you to 
 
 ## Features
 
--
-
 - **API Integration**: The app fetches data from the Dictionary API.
 
 ## Technologies Used
